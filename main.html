@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MK Exterior Services is a family-owned business based in North Carolina, dedicated to providing exceptional handyman services. With our expertise and commitment to quality, we offer a wide range of services to meet your needs.">
+    <meta name="keywords" content="Handyman, deck bulding, shed building, window cleaning, exterior services, gutter cleaning, yard work, gutter installment, pressure washing, drywall replacement">
+    <meta name="author" content="Murilo Ferreira Lopes">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>MK Exterior Services</title>
+</head>
+
+<body>
+    <header class="darkMode" id="header">
+        <img title="MKExteriorServices"class="logo" src="images/logo.PNG">
+        <button title="menuButton" id="menuButton" class="menuButtonOff">
+            <hr class="line1">
+            <hr class="line2">
+            <hr class="line3">
+        </button>
+        <nav>
+            <ul>
+                <li><a onclick="window.scrollTo(0,0)">Home</a></li>
+                <li><a onclick="window.scrollTo(0,500)">About Us</a></li>
+                <li><a onclick="window.scrollTo(0,900)">Services</a></li>
+                <li><a onclick="window.scrollTo(0,1500)">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="smallDeviceMenuOff" id="smallDeviceMenu">
+            <button id="homeButton">
+                <h1>Home</h1>
+            </button>
+            <hr>
+            <button id="aboutButton">
+                <h1>About Us</h1>
+            </button>
+            <hr>
+            <button id="servicesButton">
+                <h1>Services</h1>
+                <!-- <img src="images/arrow.png" alt="alt" class="arrowDown" id="arrow"> -->
+            </button>
+            <!-- <div class="serviceSectionOff" id="optionsMenu">
+                <button id="service1Button">
+                    <h2>Service1</h2>
+                    <hr class="mini">
+                </button>
+                <button id="service2Button">
+                    <h2>Service2</h2>
+                    <hr class="mini">
+                </button>
+                <button id="service3Button">
+                    <h2>Service3</h2>
+                    <hr class="mini">
+                </button>
+            </div> -->
+            <hr>
+            <button id="contactButton">
+                <h1>Contact Us</h1>
+            </button>
+        </div>
+    </header>
+    <img src="images/handyman.png" alt="handymanBackground" class="background">
+    <hr class="separator">
+    <div class="mottoBox">
+        <h3 class="motto">Building Dreams, Repairing Realities!</h3>
+        <button class="getQuote" onclick="window.scrollTo(0, 800)"><h4>Get A Free Quote</h4></button>
+    </div>
+    <section id="about">
+        <h2 class="sectionTitle">About Us</h2>
+        <hr>
+        <p>
+            At MK Exterior Services, we are a trusted, family-owned business with over four years of experience in North Carolina. Our comprehensive range of handyman services is designed to meet all your home maintenance needs. With a focus on craftsmanship and exceptional service, we pride ourselves on delivering top-notch workmanship using high-quality materials. Our commitment to customer satisfaction is unwavering, and we strive to build strong relationships with our clients through trust, transparency, and clear communication. Let us be your go-to partner for all your home improvement projects, creating a comfortable and beautiful living space you can be proud of.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <hr>
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"><img src="images/arrow.png" alt="arrow"></i>
+            <ul class="carousel">
+              <li class="card">
+                <div class="img"><img src="images/christmasLights.png" alt="img" draggable="false"></div>
+                <h2>Christmas Lights</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/windowCleaning.png" alt="img" draggable="false"></div>
+                <h2>Window Cleaning</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/pressureWash.png" alt="img" draggable="false"></div>
+                <h2>Pressure Wash</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/gutterCleaning.png" alt="img" draggable="false"></div>
+                <h2>Gutter Cleaning</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/gutterGuards.png" alt="img" draggable="false"></div>
+                <h2>Gutter Guards Installation</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/DryerVentCleaning.png" alt="img" draggable="false"></div>
+                <h2>Dryer Vent Cleaning</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/shedBuilding.png" alt="img" draggable="false"></div>
+                <h2>Shed Building</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/deckBuilding.png" alt="img" draggable="false"></div>
+                <h2>Deck Building</h2>
+              </li>
+              <li class="card">
+                <div class="img"><img src="images/otherHandymanServices.png" alt="img" draggable="false"></div>
+                <h2>Other Services</h2>
+              </li>
+              
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"><img src="images/arrow.png" alt="arrow"></i>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <hr>
+        <form method="post" action="mailto:murilo.ferreiras03@orange.k12.nc.us?subject=$MySubject &message= $MyMessageText">
+            <!-- <input type="text" id="userName" placeholder="Your Name" required>
+            <input type="email" id="userEmail" placeholder="Your Email" required>
+            <textarea id="userMessage" placeholder="Your Message" required></textarea> -->
+            <button type="submit">Email Us</button>
+            <button><a href="tel:+19842890839">Call Us</a></button>
+            <div onclick="location.href='https://www.instagram.com/mk_exterior_services/'">
+                <img src="images/instagram-Logo.png" alt="instagram-Logo" class="instagramLogo">
+                <h3>Follow Us</h3>
+            </div>
+        </form>
+        
+    </section>
+
+    <footer>
+        &copy; MK Exterior Services
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
